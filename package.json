@@ -1,8 +1,11 @@
 {
   "name": "proxyco",
-  "version": "0.0.2",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.3",
+  "description": "a simple proxy solution in native node.",
+  "main": "proxy.js",
+  "bin": {
+    "proxyco": "proxy.js"
+  },
   "scripts": {
     "test": "concurrently \"node demo.js\" \"nodemon test.js\""
   },
@@ -12,7 +15,8 @@
   "dependencies": {
     "finalhandler": "^1.1.2",
     "http-errors": "^1.7.3",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "yargs": "^15.3.1"
   },
   "devDependencies": {
     "concurrently": "^5.2.0"
