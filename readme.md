@@ -19,7 +19,7 @@ const server = new Server(routes, options);
 server.start(port);
 ```
 
-```json
+```js
 //roues.js
 module.exports = [
   {
