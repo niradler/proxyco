@@ -1,0 +1,20 @@
+{
+  "name": "proxyco",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "concurrently \"node demo.js\" \"nodemon test.js\""
+  },
+  "keywords": [],
+  "author": "Nir Adler",
+  "license": "ISC",
+  "dependencies": {
+    "finalhandler": "^1.1.2",
+    "http-errors": "^1.7.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
